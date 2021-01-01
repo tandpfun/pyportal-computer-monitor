@@ -3,10 +3,8 @@ See your computer's CPU usage, RAM usage, GPU usage, and disk usage on your PyPo
 
 > Note: This is mostly only compatible with Windows, and stuff might not work. I'm not great at python, but if anyone else knows how to create better compatibility, create a PR!
 
-**Normal Mode:**
-![Normal Mode](https://files.codingpro.dev/PXL_20210101_195200920.jpg)
-**Detailed Mode:**
-![Detailed Mode](https://files.codingpro.dev/PXL_20210101_195218926%20%281%29.jpg)
+<img src="https://files.codingpro.dev/PXL_20210101_195200920.jpg" alt="Normal View" width="300">
+<img src="https://files.codingpro.dev/PXL_20210101_195218926%20%281%29.jpg" alt="Normal View" width="300">
 
 ## How it works:
 To get the data from your computer to the display, this project uses Serial. On your computer, a python file is running and monitoring your computer and sending the data over to the PyPortal over Serial. The python file does need to be running on your computer at all times for it to work, though.
