@@ -4,9 +4,7 @@ import displayio
 import terminalio
 from adafruit_bitmap_font import bitmap_font
 from adafruit_display_text import label
-from adafruit_button import Button
 import adafruit_touchscreen
-from adafruit_pyportal import PyPortal
 import supervisor
 import json
 import time
